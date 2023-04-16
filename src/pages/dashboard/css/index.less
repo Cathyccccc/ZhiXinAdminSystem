@@ -1,0 +1,42 @@
+@font-face {
+  font-family: monofonto;
+  src: url("../../../assets/font/monofonto-1.ttf");
+}
+
+.card-list {
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .ant-card {
+    margin: 0.2% 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.03);
+    font-family: 'monofonto';
+    position: relative;
+    color: rgb(101, 101, 101);
+    .card-title {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+    .card-content {
+      text-align: center;
+      .card-number {
+        font-size: 60px;
+      }
+      .card-unit {
+        margin-left: 10px;
+        font-size: 40px;
+      }
+    }
+    .card-title, .card-content, .ant-table-thead .ant-table-cell {
+      font-weight: 600;
+    }
+    .ant-table-cell {
+      padding: 3px;
+      font-size: 13px;
+    }
+  }
+  
+}

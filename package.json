@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "Cathyccccc <1837803467@qq.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^4.23.4",
+    "echarts": "^5.4.0",
+    "echarts-for-react": "^3.0.2",
+    "qiniu-js": "^3.4.1",
+    "react-org-tree": "^1.0.0",
+    "umi": "^4.0.19"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@umijs/plugins": "^4.0.24",
+    "typescript": "^4.1.2"
+  }
+}

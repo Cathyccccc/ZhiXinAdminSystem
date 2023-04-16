@@ -1,0 +1,30 @@
+.table-header-container {
+  height: 72px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  // background-color: aquamarine;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 72px;
+  transition: 0.2s ease-out;
+  &.big-width {
+    width: calc(100% - 229px);
+    left: 129px;
+  }
+  &.small-width {
+    width: calc(100% - 350px);
+    left: 250px;
+  }
+  .button-list button {
+    margin: 0 3px;
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    .total-number {
+      margin: 0 5px;
+    }
+  }
+}

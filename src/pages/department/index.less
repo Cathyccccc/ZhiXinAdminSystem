@@ -1,0 +1,39 @@
+.header-container {
+  height: 72px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 72px;
+  transition: 0.2s ease-out;
+  &.big-width {
+    width: calc(100% - 229px);
+    left: 129px;
+  }
+  &.small-width {
+    width: calc(100% - 350px);
+    left: 250px;
+  }
+}
+.department-container {
+  height: 100%;
+  .org-tree-container {
+    width: 100%;
+    height: 100%;
+  }
+}
+.model-title-wrapper {
+  position: relative;
+  .model-icon {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.45);
+    transition: .3s;
+    &:hover {
+      color: #f00;
+    }
+  }
+}
